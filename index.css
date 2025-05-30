@@ -1,0 +1,36 @@
+
+.name {
+   color: rgb(24, 24, 25);
+   margin: 100px;
+   text-align: center;
+   font-size: 50px;
+   border-width: 10px;
+   border-color: blue;
+   border-style: double;
+   padding: 5px, 5px, 15px, 15px;
+   position: sticky;
+   
+}
+.par {
+    font: bold;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center; 
+    bottom: 20px;
+}
+   
+ 
+#pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1; 
+  opacity: 0.6;
+}
+
+
